@@ -9,35 +9,44 @@ int main()
         if (a==1 || e==1){
             if (i==0 || i==4){
                 ct=4;
+                break;
             }
             else if(i==1 || i==3){
                 ct=3;
+                break;
             }
-            else{
+            else if(i==2){
                 ct=2;
+                break;
             }
 
         }
         else if (b==1 || d==1){
             if (i==0 || i==4){
                 ct=3;
+                break;
             }
             else if(i==1 || i==3){
                 ct=2;
+                break;
             }
-            else{
+            else if(i==2){
                 ct=1;
+                break;
             }
         }
-        else{
+        else if(c==1){
             if (i==0 || i==4){
                 ct=2;
+                break;
             }
             else if(i==1 || i==3){
                 ct=1;
+                break;
             }
-            else{
+            else if(i==2){
                 ct=0;
+                break;
             }
         }
     }
