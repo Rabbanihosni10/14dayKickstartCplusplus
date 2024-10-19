@@ -26,3 +26,12 @@ int main()
 //     code;
 //     incre/decre; 
 // }
+
+
+// Do while loop--->
+// do{
+//     code;
+//     incri/decri;
+// } while(condition);
+
+
